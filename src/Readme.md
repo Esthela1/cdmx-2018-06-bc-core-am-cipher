@@ -14,7 +14,7 @@ Se esta hablando, así que te voy a pedir que entres a este link:
 
 Y leas las instrucciónes, haa y si tienes comentarios de como sería mas
 Facil de usar o como se podría mejorar me mandas los comentarios
-Cifrados, gracias.
+Codificados, gracias.
 
 Esthela
 -----------------------
@@ -43,6 +43,8 @@ Esthela
 3.-Escribe en "Clave" el numero que se escribio antes del mensaje para que puedas decifrar.
 
 4.-Presiona "Decifrar" y entonces sabras lo que dice el mensaje.
+
+
 -------------------------------------
 ##Razonamiento
 
@@ -67,6 +69,8 @@ toma la letra, traducelo a ascii, pasalo por la formula, toma el numero aqcii qu
 3.-En base al desplazamiento elegir los caracteres correspondietes para el mensaje y decifrarlo.
 
 4.-imprimir el resultado del cifrado en el html.
+
+
 --------------------------------
 
 ##Investigación de usuario:
