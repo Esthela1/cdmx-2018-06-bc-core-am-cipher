@@ -4,7 +4,7 @@ window.cipher = {
 
 //Crear una funcion llamada cipher que cifre el texto ingresado//
 var cifrado = "";
-    
+
 function cipher() {
 
   var texto = document.getElementById("mensaje").value;
@@ -26,7 +26,7 @@ function cipher() {
 
   }
 
- document.getElementById("resultado").innerHTML = cifrado;
+  document.getElementById("resultado").innerHTML = cifrado;
 }
 
 
@@ -39,7 +39,7 @@ function decipher() {
 
   for (var j = 0; j < descifrado.length; j++) {
     //el for recorrera las letras del texto a descifrar//
-//console.log(cifrado [j]);
+    //console.log(cifrado [j]);
     var ubicacionDescifrado = (descifrado.charCodeAt(j) + 65 - 33) % 26 + 65;
 
     var palabraDescifrada = String.fromCharCode(ubicacionDescifrado);
@@ -47,7 +47,7 @@ function decipher() {
     palDescifrado += palabraDescifrada; //reunir las letras descifradas//
   }
 
- document.getElementById("resultado").innerHTML = palDescifrado;
- 
- 
+  document.getElementById("resultado").innerHTML = palDescifrado;
+
+
 }
