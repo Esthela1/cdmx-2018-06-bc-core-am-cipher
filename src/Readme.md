@@ -52,6 +52,8 @@ Es una aplicacion para cifrar y decifrar mensajes usando el desplazamiento del c
 
 ##pseudocodigo
 
+*Cifrado*
+
 1.-Introducir un mensaje para cifrar en un imput "Cifrar". cipher
 toma la letra, traducelo a ascii, pasalo por la formula, toma el numero aqcii que arrojó y traducelo a letra.
 
@@ -61,7 +63,8 @@ toma la letra, traducelo a ascii, pasalo por la formula, toma el numero aqcii qu
 
 4.-imprimir el resultado del cifrado en el html.
 
-		DECIFRADO
+*Decifrado*
+
 1.-Introducir un mensaje cifrado en el imput "Descifrar"
 
 2.-Introducir un numero para elegir el desplazamiento establecido previamente de caracteres.
@@ -73,7 +76,8 @@ toma la letra, traducelo a ascii, pasalo por la formula, toma el numero aqcii qu
 
 --------------------------------
 
-##Investigación de usuario:
+##Investigación de usuario
+
 Esta aplicacion se probó con 10 personas, entre los 20 y 50 años, en un porcentaje 
 equitativo de hombres y mujeres, siendo los mas jovenes los que mas fluidez tienen
 En el uso de la computadora y/o celular, los 2 mayores necesitaron mas explicaciones para el 
@@ -81,13 +85,13 @@ uso de la computadora y/o celular en general.
 
 Las observaciones reelevantes que hubo fueron:
 
-1.-"Me gusta por que es simple"
-2.-"Seria mejor si pudiera hacerlo directamente en whatsapp"
-3.-"Es muy tardado copiar y pegar y mas en el celular"
-4.-"Me gustan los dibujitos del fondo, ¿puedo cambiar el color?"
-5.-"¿Puedes hacer un video tutorial?"
+1.-"Me gusta por que es simple".
+2.-"Seria mejor si pudiera hacerlo directamente en whatsapp".
+3.-"Es muy tardado copiar y pegar y mas en el celular".
+4.-"Me gustan los dibujitos del fondo, ¿puedo cambiar el color?".
+5.-"¿Puedes hacer un video tutorial?".
 6.-"Es muy dificil, seria mas facil si pudiera mandar los mensajes directamente desde aqui,
-    Sin copiar y pegar"
+    Sin copiar y pegar".
 
 En general expresaron que servia bien para lo que era, los usuarios encontraron entretenido
 Cifrar mensajes y decifrarlos.
