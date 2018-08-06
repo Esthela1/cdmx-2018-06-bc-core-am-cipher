@@ -23,6 +23,8 @@ Esthela
 
 *Cifrar*
 
+##Nota:En esta entrega aun no funciona con la letra "ñ", espacios, numeros o caracteres aparte de las letras de la "a" a la "z".
+
 1.-Escribe tu mensaje en el recuadro con la leyenda:
         "Escribe tu mensaje aquí"
 2.-Elige el numero "Clave" para cifrar.
