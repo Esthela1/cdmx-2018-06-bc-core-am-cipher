@@ -23,7 +23,7 @@ window.cipher = {
       cifrado += palabraCifrada;
 
     }
-      return cifrado;
+    return cifrado;
   },
 
 
@@ -42,7 +42,7 @@ window.cipher = {
       //reunir las letras descifradas//
       palDescifrado += palabraDescifrada;
     }
-      return palDescifrado;
+    return palDescifrado;
   }
-    
+
 };

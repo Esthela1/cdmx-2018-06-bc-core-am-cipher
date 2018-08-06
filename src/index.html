@@ -13,35 +13,30 @@
   <header>
     <h1>Fiesta sorpresa</h1>
   </header>
-  <nav>
-    <form action="/action_page.php">
-      <p>Instrucciónes: Debes refrescar la pagina despues de cada acción.
-        <br> Cifrar: Escribe tu mensaje, elige un numero clave y da clic en cifrar.
-        <br> Decifrar: Escribe o pega tu cifrado, elige el numero clave que te dieron y da clic en Decifrar.
+  <form action="/action_page.php">
+    <p>Instrucciónes: Debes refrescar la pagina despues de cada acción.
+      <br> Cifrar: Escribe tu mensaje, elige un numero clave y da clic en cifrar.
+      <br> Decifrar: Escribe o pega tu cifrado, elige el numero clave que te dieron y da clic en Decifrar.
+      <br>
+    </p>
+    <section>
+      <h3>
+        <textarea id="texto2" placeholder="Escribe tu mensaje aquí.."></textarea>
+        <br> Clave
+        <input type="number" id="clave" value="3">
         <br>
-      </p>
-      <section= width="0" height="0">
-        <h3>
-          <textarea id="texto2" placeholder="Escribe tu mensaje aquí.."></textarea>
-          <br>
-          Clave
-          <input type="number" id="clave" value="3">
-          <br>
-          <textarea id="resultado" placeholder="Resultado.."></textarea>
-        </h3>
-        <br>
-      </section>
-      <footer>
-        <h6>
-          <input type="button" value="Cifrar" onclick="cipherGo()">
-          <input type="button" value="Decifrar" onclick="decipher()">
-        </h6>
-      </footer>
-    </form>
-  </nav>
-  <script type="text/javascript" src="cipher.js"> </script>
-  <script type= "text/javascript" src="index.js"> </script>
- 
+        <textarea id="resultado" placeholder="Resultado.."></textarea>
+      </h3>
+      <br>
+    </section>
+    <footer>
+      <input type="button" value="Cifrar" onclick="cipherGo()">
+      <input type="button" value="Decifrar" onclick="decipher()">
+    </footer>
+  </form>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
 </body>
 
 </html>
